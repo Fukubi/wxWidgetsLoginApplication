@@ -38,6 +38,7 @@ LoginFrame::LoginFrame() : wxFrame(NULL, wxID_ANY, "Login Application") {
   verticalBox->Add(usernameInputBox);
   verticalBox->AddSpacer(20);
   verticalBox->Add(passwordInputBox);
+  verticalBox->AddSpacer(20);
   verticalBox->Add(loginButton);
 
   Bind(
